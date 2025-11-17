@@ -1,0 +1,23 @@
+package newpeojectweek2Day2;
+
+public class Library {
+	
+	public void addBook(String bookTitle)
+	{
+		System.out.println("Book added successfully "+bookTitle); 
+	}
+	public void issueBook()
+	{
+		System.out.println("Book issued successfully ");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Library obj= new Library();
+		obj.addBook(" World of Creatures");
+		
+		obj.issueBook();
+
+	}
+
+}
